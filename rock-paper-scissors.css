@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.move-icon{
+    height: 50px;
+}
+
+.move-btn{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 16px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.result-string{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reset-btn,
+.autoplay-btn{
+    padding: 8px 12px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.15s;
+}
+
+.reset-btn:hover,
+.autoplay-btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
